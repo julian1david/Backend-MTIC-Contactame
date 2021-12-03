@@ -1,0 +1,31 @@
+{
+    "definition": {
+        "swagger": "2.0",
+        "info": {
+            "version": "1.2.0",
+            "title": "Contactame",
+            "license": {
+                "name": "MIT",
+                "url": "https://opensource.org/license/MIT"
+            },
+            "contact": {
+                "name": "JF + Mision TIC 2022",
+                "url": "https://github.com/julian1david"
+            }
+        },
+        "host": "http://localhost:5000",
+        "basePath": "/",
+        "schemes": [
+            "http"
+        ],
+        "consumes": [
+            "application/json"
+        ],
+        "produces": [
+            "application/json"
+        ]
+    },
+    "apis": [
+        "./routes/*.js"
+    ]
+}
