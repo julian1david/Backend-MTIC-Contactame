@@ -20,7 +20,7 @@ BD_NAME =
 ### Install a run the Server (In one console)
 
 ```bash
-git clone https://github.com/julianf-dev/Backend-MTIC-Contactame.git
+git clone git@github.com:julianf-dev/API-Rest-Contact-me.git
 npm install
 npm start
 ```
